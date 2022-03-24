@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --linkColor: #3897d3;
+    --linkHover: #227cb5;
+  }
+
+
+#coursesImg{
+    width: 12.5vw;
+    margin-top: 4rem;
+}
+
+.coursesContainer1{
+    text-align: center;
+}
+
+.coursesContainer1 h2{
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+.container1_content{
+    margin-top: 2rem;
+}
+.coursesContainer1 p{
+    font-size: 2vw;
+}
+
+.courseLink{
+    width: 87px;
+  border: 2px solid var(--linkColor);
+  margin-top: 20px;
+  margin-left: 47%;
+}

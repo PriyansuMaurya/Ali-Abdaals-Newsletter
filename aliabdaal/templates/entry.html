@@ -1,0 +1,178 @@
+{% extends "base.html" %}
+
+    {% block title %}{{ title }}{% endblock %}
+    
+    {% block body %}
+    
+    <div id="container">
+        <div class="leftContainer">
+            <h1>Hey friends -</h2>
+            <h4>I'm Ali. I'm a doctor, <a href="#">YouTuber</a></h4>
+            <h4>and <a href="#">podcaster</a>.</h4>
+
+            <div class="subContent1">
+                <p>On this site we explore the strategies and <a href="#">tools</a> that</p>
+                <p>help us live happier, healthier, more productive lives.</p>
+            </div>
+            
+            <div class="subContent2">
+                <p>And over at <a href="#">Sunday Snippets</a> - my weekly</p>
+                <p>newletter - I share actionable productivity tips and </p>
+                <p>practical life advice. Sign up below if you want to </p>
+                <p>join a growing community of more than 130,000</p>
+                <p>friendly readers.</p>
+            </div>
+
+            <div>
+
+                <input type="email" name="email" id="emailAdd" placeholder="Email Address">
+            </div>
+            <button id="subBtn">SUBSCRIBE</button>
+            
+        </div>
+        <div class="rightContainer">
+            <img src="./static/images/aliabbas_thumbnail.png" alt="aliabbas" id="homeImg">
+            <!-- <iframe src="https://www.youtube-nocookie.com/f7f1aaab-dcb4-45ff-8610-d85e9969db31" width="100%" height="300"> -->
+            <!-- </iframe> -->
+        </div>
+    </div>
+
+    <div class="container_2">
+        <p>Check out my Ultimate Guides</p>
+        <svg width="57" height="61" viewBox="0 0 57 61" fill="none" xmlns="http://www.w3.org/2000/svg" id="downArrow"><g clip-path="url(#clip0)"><path d="M27.24 59.656c3.056-4.048 6.993-7.064 11.733-8.884 1.044-.403.601-2.019-.494-1.686a27.466 27.466 0 00-7.22 3.363c4.386-6.307 6.793-13.976 7.43-21.601.826-9.907-1.403-22-8.078-29.72-.977-1.136-3.166.194-2.558 1.583C30 7.16 32.27 11.285 33.525 16.038c1.242 4.705 1.793 9.525 1.53 14.385-.434 8.056-3.296 15.458-7.17 22.389-.355-2.259-1.235-4.428-2.668-6.287-1.3-1.681-4.121-.045-2.869 1.776 2.13 3.113 3.128 6.322 2.577 10.122-.167 1.186 1.416 2.426 2.317 1.233z" fill="#333" fill-opacity=".85"></path></g><defs><clipPath id="clip0"><path transform="rotate(148.25 56.2 41.845)" fill="#fff" d="M56.2 41.845h35.638v49.209H56.2z"></path></clipPath></defs></svg>
+    </div>
+
+    <div class="container_3">
+        <div id="content_1">
+            <p class="contentLogo">🚀</p>
+            <h2 id="headContent1">Productivity</h3>
+            <div class="content_p">
+                <p>How to execute efficientyly, make time </p>
+            <p>for what matters and have fun along </p>
+            <p>the way.</p>
+            </div>
+            
+        </div>
+        <div id="content_2">
+            <p class="contentLogo">✍️</p>
+            <h2 id="headContent2">Studying </h3>
+            <div class="content_p">
+                <p>How to study effectively for exams,</p>
+                <p>with the best evidence-based</p>
+                <p>techniques.</p>
+            </div>
+            
+        </div>
+        <div id="content_3">
+            <p class="contentLogo">🎬</p>
+            <h2 id="headContent3">YouTubing</h3>
+            <div class="content_p">
+                <p>Start your channel, grow your empire</p>
+                <p>and generate passive income. Without</p>
+                <p>quitting your day job.</p>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="container_4">
+        <div class="explore">
+            <h1>Explore</h1>
+            <hr class="line">
+            <div id="explore1">
+                <div class="subexp1_1">
+                    <p class="exp_1_Logo">📚</p>
+                </div>
+                <div id="subexp1_2">
+                    <h3 id="subexpHead1">Book Summaries & Notes</h3>
+                    <p>Notes, highlights and reviews of my favourite fiction and</p>
+                    <p>non-fiction books.</p>
+                </div>
+            </div>
+            <div id="explore2">
+                <div class="subexp2_1">
+                    <p class="exp_2_Logo">🎒</p>
+                </div>
+                <div id="subexp2_2">
+                    <h3 id="subexpHead2">My Online Courses</h3>
+                    <p>Browse all of my Skillshare classes, Part Time YouTuber</p>
+                    <p>Academy, and lessons on applying to medical school.</p>
+                </div>
+            </div>
+            <div id="explore3">
+                <div class="subexp3_1">
+                    <p class="exp_3_Logo">🎙</p>
+                </div>
+                <div id="subexp3_2">
+                    <h3 id="subexpHead3">My Weekly Podcast</h3>
+                    <p>Each week, my brother and I host a podcast where we</p>
+                    <p>ponder about the human condition. Check it out.</p>
+                </div>
+            </div>
+        </div>
+        <div class="latestArticles">
+            <h1>Latest Articles</h1>
+            <hr class="line">
+            <div class="article article1">
+                <p>NEWSLETTER</p>
+                <p>How to Get Things Done</p>
+            </div>
+            <div class="article article2">
+                <p>BOOK JOURNEY</p>
+                <p>The Myth about Hard Work</p>
+            </div>
+            <div class="article article3">
+                <p>DEEP DIVE</p>
+                <p>How and Why We Play Social Status Games - Will Store</p>
+            </div>
+            <div class="article article4">
+                <p>NEWSLETTER</p>
+                <p>What It's Really Like to Write a Book</p>
+            </div>
+            <div class="article article5">
+                <p>DEEP DIVE</p>
+                <p>Frome Digging Holes To A Million Dollar BUsiness - Julian Hearn</p>
+                <p>Founder Of Huel</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container_5">
+        <div class="container5_1">
+            <h2>Get a free Notion template with</h2>
+            <h2>my favourite productivity</h2>
+            <h2>techniques</h2>
+
+            <div class="container5_1_content">
+                <p>🚀 20 productivity hacks</p>
+                <p>🧑‍⚖️ My personal F-to-S rating</p>
+                <p>📚 Detailed description of each technique</p>
+                <p>🆓 Free Notion template for you to duplicate and modify</p>
+            </div>
+            
+            <input type="email" name="email2" id="email2" placeholder="Email Address">
+            <button id="linkBtn">GET THE LIST</button>
+
+        </div>
+        <div class="container5_2">
+            <img src="./static/images/container4.jpg" alt="container4" id="countainer5Img">
+        </div>
+    </div>
+
+    <div class="container_6">
+        <div class="container_6_1">
+            <h2>💌 Subscribe to Sunday Snippets</h2>
+            <p id="container_6_p">"Your emails always warm the cockles of my heart"</p>
+            <p>Join a growing community of more than 130,000 (🤯) friendly</p>
+            <p>readers. Every Sunday I share actionable productivity tips,</p>
+            <p>practical life advice, and high-quality insights from across the</p>
+            <p>web, directly to your inbox.</p>
+        </div>
+        <div class="container_6_2">
+            <input type="text" name="firstName" id="firstName" placeholder="First Name">
+            <input type="email" name="email3" id="email3" placeholder="Email Address">
+            <button id="subBtn2">SUBSCRIBE</button>
+        </div>
+    </div>
+
+    {% endblock %}
