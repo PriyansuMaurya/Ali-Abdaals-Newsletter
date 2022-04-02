@@ -5,17 +5,18 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>{% block title %}{% endblock %}</title>
-        <link rel="stylesheet" href="static/style.css">
-        <link rel="stylesheet" href="static/courses.css">
+        <link rel="stylesheet" href={{ url_for('static', filename='style.css')}}>
+        <link rel="stylesheet" href={{ url_for('static', filename='courses.css')}} >
+
     </head>
     <body>
         <header>
-            <img src="./static/images/logo.png" alt="AA" id="homeLogo">
+            <img src={{ url_for('static', filename='/images/logo.png')}}  alt="AA" id="homeLogo">
     
             <nav >
                 <ul class="navContainer" >
                     <li> <a href="/about">ABOUT</a> </li>
-                    <li> <a href="/articles">ARTICLES<img style="display:inline" src="./static/images/dropdown-arrow.png" alt="" id="drop"></a> </li>
+                    <li> <a href="/articles">ARTICLES<img style="display:inline" src={{ url_for('static', filename='/images/dropdown-arrow.png')}} alt="" id="drop"></a> </li>
                     <li> <a href="/courses">COURSES</a> </li>
                     <li> <a href="/podcast">PODCAST</a> </li>
                     <li> <a href="/book-notes">BOOK-NOTES</a> </li>

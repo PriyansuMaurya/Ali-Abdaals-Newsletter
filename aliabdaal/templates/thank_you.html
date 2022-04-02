@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+    {% block title %}{{ title }}{% endblock %}
+    
+    {% block body %}
+    {% if link_expired == True %}
+        <h2>Your link Expired</h2>
+    {% endif %}
+    
+    <h1>{{ title }}</h1>
+    {% endblock %}

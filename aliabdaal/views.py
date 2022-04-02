@@ -1,10 +1,9 @@
-from flask import Blueprint,render_template
+from flask import Blueprint,render_template, request
 
 views = Blueprint('views',__name__)
 
 
 @views.route('/')
-@views.route('/entry')
 def entry_page() -> 'html':
     return render_template('entry.html',title='Ali Abdaal')
 
@@ -66,3 +65,14 @@ def book_notes() -> 'html':
 @views.route('/newsletter')
 def newsletter() -> 'html':
     return render_template('newsletter.html',title='newsletter')
+
+
+
+@views.route('/newsletter-thanks/<email>')
+def newsletter_thanks(email=None) -> 'html':
+    from .models import User
+    from aliabdaal import db
+    user = User(email=email)
+    db.session.add(user)
+    db.session.commit()
+    return render_template('newsletter_thanks.html',title='newsletter-thanks')

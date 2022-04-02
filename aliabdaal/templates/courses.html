@@ -5,7 +5,7 @@
     {% block body %}
     
     <div class="coursesContainer1">
-        <img src="./img/courses.png" alt="courses" id="coursesImg">
+        <img src={{ url_for('static', filename='images/courses.png')}}"" alt="courses" id="coursesImg">
         <h2>🎒 My Courses</h2>
         <div class="container1_content">
             <p>You can find 99% of my stuff on the interest for free in various forms. But for a more</p>
@@ -36,10 +36,10 @@
                 <div class="container2_sub3_1_1">
                     <p>Learn how to grow your YouTube channel from 0</p>
                     <p>to 100,000+ subscribers and transform it into a..</p>
-                    <p> <img src="./img/homelogo.png" alt="homelogo"> Part-Time YouTuber Academy</p>
+                    <p> <img src=src={{ url_for('static', filename='/images/homelogo.png')}} alt="homelogo"> Part-Time YouTuber Academy</p>
                 </div>
                 <div class="container2_sub3_1_2">
-                    <img src="./img/partTime_youTuber_Academy_img.png" alt="">
+                    <img src={{ url_for('static', filename='/images/partTime_youTuber_Academy_img.png')}}  alt="">
                 </div>
             </div>
         </div>
