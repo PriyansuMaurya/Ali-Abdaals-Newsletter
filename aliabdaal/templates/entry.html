@@ -171,11 +171,13 @@
             <p>practical life advice, and high-quality insights from across the</p>
             <p>web, directly to your inbox.</p>
         </div>
-        <div class="container_6_2">
-            <input type="text" name="firstName" id="firstName" placeholder="First Name">
-            <input type="email" name="email3" id="email3" placeholder="Email Address">
-            <button id="subBtn2">SUBSCRIBE</button>
-        </div>
+        <form method="POST">
+            <div class="container_6_2">
+                <input type="text" name="firstName" id="firstName" placeholder="First Name">
+                <input type="email" name="email" id="email3" placeholder="Email Address">
+                <button id="subBtn2" type="submit">SUBSCRIBE</button>
+            </div>
+        </form>
     </div>
 
     {% endblock %}

@@ -34,8 +34,8 @@ def create_database(app):
         
 
 def send_email(html, receiver_email, subject):
-    sender_email = 'priyansumauriya@gmail.com'
-    password = "hfocjqtsdrhbcgyo"
+    sender_email = 'ali4bd441@gmail.com'
+    password = 'user_aliabdaal+0987'
 
     message = MIMEMultipart("alternative")
     message["Subject"] = subject

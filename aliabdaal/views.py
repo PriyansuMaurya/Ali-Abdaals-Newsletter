@@ -66,13 +66,3 @@ def book_notes() -> 'html':
 def newsletter() -> 'html':
     return render_template('newsletter.html',title='newsletter')
 
-
-
-@views.route('/newsletter-thanks/<email>')
-def newsletter_thanks(email=None) -> 'html':
-    from .models import User
-    from aliabdaal import db
-    user = User(email=email)
-    db.session.add(user)
-    db.session.commit()
-    return render_template('newsletter_thanks.html',title='newsletter-thanks')
