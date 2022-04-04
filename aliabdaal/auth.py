@@ -2,7 +2,6 @@ from lib2to3.pgen2 import token
 from socket import gaierror
 from flask import Blueprint, redirect, render_template, request, url_for,abort
 from aliabdaal import send_email
-from flask_mail import Mail,Message
 from itsdangerous import BadTimeSignature, URLSafeTimedSerializer,SignatureExpired
 
 from aliabdaal.models import User
@@ -17,7 +16,7 @@ def sign_up_sun_snipp():
         email = request.form.get('email')
         name = request.form.get('firstName')
         token = s.dumps(email,salt="email-confirm")
-        html = render_template('index.html',token=token)
+        html = render_template('index.html',token=token,email=email)
         
         try:
             send_email(html = html,
@@ -60,3 +59,11 @@ def newsletter_thanks(name=None,email=None) -> 'html':
     db.session.add(user)
     db.session.commit()
     return render_template('newsletter_thanks.html',title='newsletter-thanks')
+
+@auth.route("/unsubscribe-newsletter/<email>")
+def unsubscribe_newsletter(email):
+    from aliabdaal import db
+    User.query.filter_by(email=email).delete()
+    db.session.commit()
+        
+    return render_template('unsubscribe_newsletter.html',title='"Unsubscribed succes"')
