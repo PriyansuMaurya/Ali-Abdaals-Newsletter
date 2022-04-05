@@ -65,5 +65,4 @@ def unsubscribe_newsletter(email):
     from aliabdaal import db
     User.query.filter_by(email=email).delete()
     db.session.commit()
-        
-    return render_template('unsubscribe_newsletter.html',title='"Unsubscribed succes"')
+    return render_template('unsubscribe_newsletter.html',title="Unsubscribed succesfully")
