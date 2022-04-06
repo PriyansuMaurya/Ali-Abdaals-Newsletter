@@ -2,7 +2,7 @@
 ## Priyanshu Maurya
 ## Shubham khale
 
-
+Making little readme.
 
 
 clone of aliabdaal website using python , html and css
