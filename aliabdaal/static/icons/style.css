@@ -1,0 +1,446 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*variables*/
+:root {
+  --linkColor: #3897d3;
+  --linkHover: #227cb5;
+}
+
+/*header*/
+header {
+  margin-top: 2.7rem;
+  display: flex;
+  margin-left: 17rem;
+}
+
+#homeLogo {
+  width: 80px;
+  height: 68px;
+}
+
+nav {
+  margin-left: 17rem;
+  margin-top: 1.5rem;
+}
+
+nav ul li {
+  margin-right: 25px;
+}
+.navContainer {
+  display: flex;
+}
+
+.navContainer li {
+  list-style: none;
+}
+
+.navContainer li:hover {
+  cursor: pointer;
+}
+
+.navContainer li a {
+  text-decoration: none;
+  color: black;
+}
+
+#drop {
+  width: 12px;
+  height: 13px;
+  position: relative;
+  top: 2.5px;
+  left: 1px;
+}
+
+/*articleDropdown*/
+
+#articleDropdown {
+  width: 13vw;
+  /* border: 2px solid black; */
+  z-index: 0;
+  margin-left: 43.5rem;
+  border-radius: 7px;
+  padding-left: 7px;
+  padding-top: 3px;
+  box-shadow: 1px 2px 4px #888888;
+  display: none;
+  background-color: #fff;
+}
+
+#articleDropdown li {
+  list-style: none;
+  margin-bottom: 7px;
+}
+
+/* container */
+#container {
+  margin-top: 5rem;
+  display: flex;
+}
+
+#container a {
+  color: var(--linkColor);
+}
+
+#container a:hover {
+  color: var(--linkHover);
+}
+
+.leftContainer {
+  margin-left: 16.3rem;
+}
+
+.leftContainer h1 {
+  font-size: 3rem;
+}
+
+.leftContainer h4 {
+  font-size: 1.4rem;
+  word-spacing: 2px;
+  margin-top: 4px;
+}
+
+.rightContainer {
+  z-index: -1;
+}
+
+#homeImg {
+  width: 33vw;
+  margin-top: 4rem;
+  margin-left: 6.5rem;
+}
+.subContent1 {
+  margin-top: 1.5rem;
+  font-size: 21px;
+}
+
+.subContent2 {
+  margin-top: 1rem;
+  font-size: 21px;
+}
+
+#emailAdd {
+  margin-top: 1.2rem;
+  padding: 7px;
+  width: 17vw;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+}
+
+#subBtn {
+  background-color: var(--linkColor);
+  color: white;
+  border: none;
+  padding: 7px;
+  width: 18vw;
+  border-radius: 3px;
+  margin-top: 1rem;
+}
+
+#subBtn:hover {
+  background-color: var(--linkHover);
+  cursor: pointer;
+}
+
+/*container_2*/
+
+.container_2 {
+  margin-top: 2.5rem;
+  margin-left: 19rem;
+}
+
+.container_2 p {
+  font-family: "Gloria Hallelujah", cursive;
+}
+
+#downArrow {
+  margin-left: 11rem;
+  margin-top: 1rem;
+}
+
+/*container_3*/
+.container_3 {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+  margin: 0px 261px;
+  gap: 40px;
+}
+
+.container_3 h2 {
+  margin-top: 15px;
+}
+
+#content_1 {
+  border-radius: 9px;
+  box-shadow: 1px 3px 8px #888888;
+}
+
+#content_2 {
+  border-radius: 9px;
+  box-shadow: 1px 3px 8px #888888;
+}
+
+#content_3 {
+  border-radius: 9px;
+  box-shadow: 1px 3px 8px #888888;
+}
+
+.contentLogo {
+  font-size: 2.5rem;
+  margin-top: 23px;
+}
+
+.content_p {
+  margin-top: 19px;
+}
+
+/*container_4*/
+.container_4 {
+  display: flex;
+  margin-left: 16rem;
+  margin-top: 4.5rem;
+}
+
+#explore1 {
+  background-color: #f8fafc;
+  display: flex;
+  margin-top: 30px;
+  padding: 18px;
+}
+
+#explore1:hover {
+  cursor: pointer;
+}
+
+#explore2 {
+  background-color: #f8fafc;
+  display: flex;
+  margin-top: 30px;
+  padding: 18px;
+}
+
+#explore2:hover {
+  cursor: pointer;
+}
+
+#explore3 {
+  background-color: #f8fafc;
+  display: flex;
+  margin-top: 30px;
+  padding: 18px;
+}
+
+#explore3:hover {
+  cursor: pointer;
+}
+
+#subexp1_1 {
+  position: relative;
+  top: 9px;
+}
+
+#subexp2_1 {
+  position: relative;
+  top: 9px;
+}
+
+#subexp3_1 {
+  position: relative;
+  top: 9px;
+}
+
+.exp_1_Logo {
+  font-size: 26px;
+}
+
+.exp_2_Logo {
+  font-size: 26px;
+}
+
+.exp_3_Logo {
+  font-size: 26px;
+}
+
+#subexp1_2 {
+  margin-left: 18px;
+}
+
+#subexp2_2 {
+  margin-left: 18px;
+}
+
+#subexp3_2 {
+  margin-left: 18px;
+}
+
+.latestArticles {
+  margin-left: 7rem;
+}
+
+.line {
+  width: 87px;
+  border: 2px solid var(--linkColor);
+  margin-top: 20px;
+}
+
+/*Latest Articles*/
+.article {
+  margin-top: 27px;
+  border-bottom: 2px solid lightgray;
+  padding-bottom: 10px;
+}
+
+.article p:first-child {
+  color: #141313c4;
+  margin-bottom: 4px;
+}
+
+/*container_5*/
+.container_5 {
+  display: flex;
+  margin-top: 6rem;
+}
+
+.container5_1 {
+  margin-left: 16rem;
+}
+
+.container5_1 h2 {
+  font-size: 2rem;
+}
+
+.container5_1_content {
+  margin-top: 2rem;
+  font-size: 17px;
+}
+
+#email2 {
+  margin-top: 2rem;
+  width: 188px;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+}
+
+#linkBtn {
+  border: none;
+  background-color: var(--linkColor);
+  color: #fff;
+  width: 10vw;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+#linkBtn:hover {
+  cursor: pointer;
+  background-color: var(--linkHover);
+}
+
+.container5_2 {
+  margin-left: 5.8rem;
+}
+
+#countainer5Img {
+  width: 35vw;
+}
+
+/*container6*/
+.container_6 {
+  background-color: #f8fafc;
+  display: flex;
+  margin-top: 5rem;
+  padding-top: 4rem;
+}
+
+.container_6_1 {
+  margin-left: 14.8rem;
+}
+
+.container_6_1 h2 {
+  font-size: 32px;
+}
+
+.container_6_1 p {
+  font-size: 18px;
+}
+
+#container_6_p {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.container_6_2 {
+  margin-top: 3rem;
+  margin-left: 7.5rem;
+  width: 16vw;
+}
+
+#firstName {
+  width: 33vw;
+  padding: 10px;
+  margin-top: 1rem;
+  border: 1px solid lightgray;
+}
+
+#email3 {
+  width: 33vw;
+  padding: 10px;
+  margin-top: 1rem;
+  border: 1px solid lightgray;
+}
+
+#subBtn2 {
+  width: 34.5vw;
+  border: none;
+  background-color: var(--linkColor);
+  color: #fff;
+  margin-top: 1rem;
+  padding: 8px;
+  font-size: 16px;
+}
+
+#subBtn2:hover {
+  background-color: var(--linkHover);
+  color: #fff;
+  cursor: pointer;
+}
+
+/*footer*/
+footer {
+  background-color: #000000;
+  color: #fff;
+  display: flex;
+  margin-top: 5rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.subFooter1 {
+  margin-left: 14.5rem;
+}
+.subFooter1 a {
+  color: var(--linkColor);
+}
+
+.subContent1 a:hover {
+  color: var(--linkHover);
+  cursor: pointer;
+}
+
+.subFooter2 ul {
+  display: flex;
+  margin-left: 33rem;
+}
+
+.subFooter2 ul li {
+  list-style: none;
+  margin-right: 26px;
+}
+
+.subFooter2 ul li:hover{
+  cursor: pointer;
+}
