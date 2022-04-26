@@ -2,4 +2,67 @@
 
     {% block title %}{{ title }}{% endblock %}
     
-    {% block body %}<h1>{{ title }}</h1>{% endblock %}
+    {% block body %}
+        <div id="entireProductContainer">
+            <div class="podcastContainer1">
+                <div class="subPodcastContainer1">
+                    <div class="subPodcastContainer1_1">
+                        <h2>Deep Dive</h2>
+                        <h2>With Ali Abdaal</h2>
+                    </div>
+                    <div class="subPodcastContainer1_2">
+                        <p>The podcast that delves into the minds of</p>
+                        <p>entrepreneurs, creators and other inspiring people to</p>
+                        <p>uncover the philosophies, strategies and tools that</p>
+                        <p>help us live happier, healthier and more productive</p>
+                        <p>lives.</p>
+                    </div>
+    
+                    <div class="subPodcastContainer1_3">
+                        <div class="subPodcastContainer1_3_1">
+                            <img src="https://aliabdaal.com/content/images/2021/09/spotify-podcast-badge-wht-grn-165x40.svg" alt="listen on spotify" id="spotifyImg">
+                            <img  src="https://aliabdaal.com/content/images/2021/09/badge.svg" alt="listen on app store" id="appStoreImg">
+                        </div>
+                        <div class="subPodcastContainer1_3_2">
+                            <img  src="https://aliabdaal.com/content/images/2021/09/yt_logo_rgb_light.png" alt="youTube" id="youTubeImg">
+                            <img src="https://aliabdaal.com/content/images/2021/10/EN_Google_Podcasts_Badge.svg" alt="listen on google podcast" id="googlePodcastImg">
+                        </div>
+                    </div>
+            </div>
+            <div class="subPodcastContainer2">
+                <img src={{ url_for('static', filename='/images/welcome.webp')}} alt="welcome" id="welcomeImg">
+            </div>
+        </div>
+    
+        <div class="podcastContainer2">
+            <h2>Season 2</h2>
+            <div class="podcastContent1">
+                <img src={{ url_for('static', filename='/images/the_status_game.jpeg')}}  alt="The Status Game" id="statusGameImg">
+                <img src={{ url_for('static', filename='/images/huel_the_million_business.png')}}  alt="huel the million business" id="huelTheMillionBusinessImg">
+                <img src={{ url_for('static', filename='/images/the_sleeping_post.jpeg')}}  alt="The Sleeping Post" id="sleepingPostImg">
+                <img src={{ url_for('static', filename='/images/improve_your_love_life.png')}}  alt="improve your love life" id="improveYourLoveLifeImg" id="improveYourLoveLifeImg">
+                <img src={{ url_for('static', filename='/images/be_your_own_coach.png')}}  alt="be your own coach" id="beYourOwnCoachImg">
+                <img src={{ url_for('static', filename='/images/how_to_build_relationship.png')}}  alt="how to build relationship" id="howToBuildRelationshipImg">
+                <img src={{ url_for('static', filename='/images/embrace_your_limitations.jpeg')}}  alt="embrace your limitations" id="embraceYourLimitationsImg">
+                <img src={{ url_for('static', filename='/images/how_to_live_a_meaningful_life.jpeg')}}  alt="how to live a meaningful life" id="howToLiveAMeaningfulLifeImg">
+            </div>
+        </div>
+    
+        <div class="podcastContainer3">
+            <h2>Season 1</h2>
+            <div class="podcastContent2">
+                <img src={{ url_for('static', filename='/images/live_your_life_with_purpose.jpeg')}}  alt="live your life with purpose" id="liveYourLifeWithPruposeImg">
+                <img src={{ url_for('static', filename='/images/The_uks_1_tech_influencer.jpg')}}  alt="The UK's #1 Tech Influencer" id="uks1TechInfluencerImg">
+                <img src={{ url_for('static', filename='/images/how_to_build_resilience.jpg')}} alt="How to build resilience" id="howToBuildResilienceImg">
+                <img src={{ url_for('static', filename='/images/how_to_be_your_true_self.jpg')}}  alt="how to be your true self" id="howToBeYourTrueSelfImg">
+                <img src={{ url_for('static', filename='/images/find_a_vision_mission_and_why.jpeg')}}   alt="find a vision mission and why" id="findAVisionMissionAndWhyImg">
+                <img src={{ url_for('static', filename='/images/bootstrap_your_life.jpeg')}}   alt="bootstrap your life" id="bootstrapYourLifeImg">
+                <img src={{ url_for('static', filename='/images/how_to_build_your_career.png')}}   alt="how to build your career" id="howToBuildYourCareerImg">
+                <img src={{ url_for('static', filename='/images/invest_in_your_brain.jpeg')}}  alt="invest in your brain" id="investInYourBrainImg">
+                <img src={{ url_for('static', filename='/images/making_your_own_luck.jpeg')}}  alt="making your own luck" id="makingYourOwnLuckImg">
+                <img src={{ url_for('static', filename='/images/the_multimillion_dating_app.jpeg')}}  alt="The multi-million dating app" id="multiMillionDatingAppImg">
+                <img src={{ url_for('static', filename='/images/reshape_your_lifestyle.jpeg')}}  alt="Reshape your lifestyle" id="reshapeYourLifestyleImg">
+                <img src={{ url_for('static', filename='/images/the_billion_brand.jpeg')}}  alt="the billion brand" id="billionBrandImg">
+            </div>
+        </div>
+    {% endblock %}

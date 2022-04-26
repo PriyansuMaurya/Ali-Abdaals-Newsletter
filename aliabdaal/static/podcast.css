@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.podcastContainer1{
+    display: flex;
+    margin-left: 17.5rem;
+    margin-top: 7rem;
+}
+
+.subPodcastContainer1_1{
+    font-size: 2rem;
+}
+
+.subPodcastContainer1_3{
+    display: flex;
+    flex-direction: column;
+}
+
+.subPodcastContainer1_2{
+    margin-top: 2rem;
+    font-size: 18px;
+}
+
+.subPodcastContainer1_3_1{
+    margin-top: 2rem;
+}
+
+.subPodcastContainer1_3_2{
+    margin-top: 1rem;
+}
+
+#youTubeImg{
+    width: 122px;
+    height: 25px;
+}
+
+#welcomeImg{
+    width: 36rem;
+    height: 18.5rem;
+    margin-left: 4.5rem;
+    border-radius: 8px;
+}
+
+#appStoreImg{
+    margin-left: 1.5rem;
+}
+
+#googlePodcastImg{
+    margin-left: 4rem;
+    width: 122px;
+}
+
+.podcastContent1{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 1fr;
+    align-content: center;
+}
+
+.podcastContent1 img{
+    width: 30.5vw;
+    height: 16vw;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+.podcastContent1 img:hover{
+    width: 445px;
+    height: 235px;
+    cursor: pointer;
+}
+
+.podcastContainer2{
+    margin-left: 17.5rem;
+    margin-top: 6rem;
+}
+
+.podcastContainer2 h2{
+    margin-bottom: 3rem;
+}
+
+.podcastContainer3{
+    margin-left: 17.5rem;
+    margin-top: 6rem;
+}
+
+.podcastContainer3 h2{
+    margin-bottom: 3rem;
+}
+
+.podcastContent2 img{
+    width: 30.5vw;
+    height: 16vw;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+/* .podcastContent2 img:hover{
+    width: 32vw;
+    height: 17vw;
+    cursor: pointer;
+    position: absolute;
+    right: 2vw;
+    left: 2vw;
+} */
+
+.podcastContent2{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 1fr;
+    align-content: center;
+}
+
+
+
+#productDop {
+    width: 12px;
+    height: 13px;
+    position: relative;
+    top: 2.5px;
+    left: 1px;
+  }
+  
+  /*articleDropdown*/
+  
+  #productArticleDropdown {
+    width: 13vw;
+    margin-left: 43.5rem;
+    border-radius: 7px;
+    padding-left: 7px;
+    padding-top: 3px;
+    box-shadow: 1px 2px 4px #888888;
+    display: none;
+    background-color: #fff;
+  }
+  
+  #productArticleDropdown li {
+    list-style: none;
+    margin-bottom: 7px;
+  }
+  

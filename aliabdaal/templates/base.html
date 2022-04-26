@@ -7,6 +7,11 @@
         <title>{% block title %}{% endblock %}</title>
         <link rel="stylesheet" href={{ url_for('static', filename='style.css')}}>
         <link rel="stylesheet" href={{ url_for('static', filename='courses.css')}} >
+        <link rel="stylesheet" href={{ url_for('static', filename='newsletter.css')}}>
+        <link rel="stylesheet" href={{ url_for('static', filename='podcast.css')}}>
+        <link rel="stylesheet" href={{ url_for('static', filename='tech.css')}}>
+
+
 
     </head>
     <body>
@@ -70,10 +75,34 @@
             </div>
         </footer>
 
-        <script
+        <script 
+        type="text/javascript"
+        src="{{ url_for('static', filename='about.js') }}">
+        </script>
+        <script 
+        type="text/javascript"
+        src="{{ url_for('static', filename='bookNotes.js') }}">
+        </script>
+
+        <script 
+        type="text/javascript"
+        src="{{ url_for('static', filename='courses.js') }}">
+        </script>
+
+        <script 
+        type="text/javascript"
+        src="{{ url_for('static', filename='podcast.js') }}">
+        </script>
+
+        <script 
         type="text/javascript"
         src="{{ url_for('static', filename='index.js') }}">
         </script>
 
+        <script 
+        type="text/javascript"
+        src="{{ url_for('static', filename='tech.js') }}">
+        </script>
+        
     </body>
 </html>

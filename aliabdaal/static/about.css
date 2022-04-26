@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --linkColor: #3897d3;
+  --linkHover: #227cb5;
+}
+
+
+.aboutContainer1 {
+  text-align: center;
+}
+
+.aboutContainer1 h2 {
+  font-size: 36px;
+  margin-top: 2rem;
+}
+
+#aboutLogo {
+  width: 11.5vw;
+  margin-top: 3rem;
+  z-index: -1;
+}
+
+.aboutLine {
+  width: 87px;
+  border: 2px solid var(--linkColor);
+  margin-top: 20px;
+  margin-left: 47%;
+}
+
+.aboutContainer1 p {
+  font-size: 1.7rem;
+}
+
+#aboutContainer1_p {
+  margin-top: 2.5rem;
+}
+
+.aboutContent{
+  margin-top: 6rem;
+  margin-left: 25.5rem;
+}
+
+.aboutList{
+  list-style-type: decimal;
+  font-size: 20px;
+}
+
+.aboutList li{
+  margin-top: 8px;
+}
+
+.aboutContent a{
+  color: var(--linkColor);
+}
+
+.aboutContent a:hover{
+  color: var(--linkHover);
+}
+
+.aboutContainer2{
+  width: 43vw;
+}
+
+.aboutContainer3{
+  margin-top: 3rem;
+  width: 43vw;
+}
+
+.aboutContainer4{
+  margin-top: 3rem;
+  width: 43vw;
+}
+
+#aboutDrop {
+  width: 12px;
+  height: 13px;
+  position: relative;
+  top: 2.5px;
+  left: 1px;
+}
+
+/*articleDropdown*/
+
+#aboutArticleDropdown {
+  width: 13vw;
+  margin-left: 43.5rem;
+  border-radius: 7px;
+  padding-left: 7px;
+  padding-top: 3px;
+  box-shadow: 1px 2px 4px #888888;
+  display: none;
+  background-color: #fff;
+}
+
+#aboutArticleDropdown li {
+  list-style: none;
+  margin-bottom: 7px;
+}

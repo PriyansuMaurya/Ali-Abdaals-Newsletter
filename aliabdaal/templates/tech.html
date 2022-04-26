@@ -2,4 +2,397 @@
 
     {% block title %}{{ title }}{% endblock %}
     
-    {% block body %}<h1>{{ title }}</h1>{% endblock %}
+    {% block body %}
+        <div id="entireTechContent">
+            <div class="techContainer">
+                <img  src={{ url_for('static', filename='/images/my_favourite_things_img.png')}} src="./img/tech.svg" alt="tech" id="techImg">
+                <h1>🛠 Tools & Tech</h1>
+            <div class="techContent">
+                <p>As a tech & productivity nerd, I'm alwaays on the hunt for the perfect tools of the trade. This</p>
+                <p>page is an always up-to-date list of my favourites.</p>
+            </div>
+            <hr id="techLine">
+        </div>
+    
+        <div class="pageContainer">
+            <div class="pageContainer_1">
+                <h3>ON THIS PAGE</h3>
+                <ul>
+                    <li id="pagelist1">My Favourite Gear</li>
+                    <li id="pagelist2">☎️ Phone</li>
+                    <li id="pagelist3">📒 Notebook & ✒️ Pen</li>
+                    <li id="pagelist4">⌨️ Keyboard</li>
+                    <li id="pagelist5">📝 iPad</li>
+                    <li id="pagelist6">⌚️ Apple Watch</li>
+                    <li id="pagelist7">🎬 YouTube Gear</li>
+                    <li id="pagelist8">🎧 Listening Tools</li>
+                    <li id="pagelist9">📚Reading</li>
+                    <li id="pagelist10">My Favourite Apps</li>
+                    <li id="pagelist11">📒 Notion</li>
+                    <li id="pagelist12">📣 Audible</li>
+                    <li id="pagelist13">📄 Evernote</li>
+                    <li id="pagelist14">📖 Roam</li>
+                    <li id="pagelist15">✍️ Notability</li>
+                    <li id="pagelist16">⏳ Task Management Tools</li>
+                    <li id="pagelist17">✅ More Apps</li>
+                    <li id="pagelist18">All posts by date</li>
+                </ul>
+            </div>
+            <div class="pageContainer_2">
+                <h3>Browse Topics</h3>
+                <ul>
+                    <li>🚀 Productivity</li>
+                    <li>🎓 Studying</li>
+                    <li>🎬 YouTubing</li>
+                    <li>🤑 Entrepreneurship</li>
+                    <li>💰 Money</li>
+                    <li>✍️ Writing</li>
+                    <li>🛠️ Tech</li>
+                </ul>
+            </div>
+        </div>
+    
+        <div class="myfavouriteGear">
+            <h2>My Favourite Gear</h2>
+            <h4>☎️ Phone</h4>
+            <p>My daily driver is the iPhone 11 Pro Max. I've been an iPhone guy since 2015.</p>
+            <p>Because I'm so entrenched in the Apple ecosystem, it's unlikely that I'll ever switch</p>
+            <p>away from iPhone unless there's a new Android that's so compelling that it's worth</p>
+            <p>leaving behind the synergy between devices (iMessage, Airdrop, Apple TV</p>
+            <p>integration, and a dozen other things).</p>
+        </div>
+    
+        <div class="notebook">
+            <h4>📒 Notebook & ✒️ Pen</h4>
+            <p>Despite being a proponent of mostly digital apps, I do regularly use my favourite</p>
+            <p>notebook, the Leuchterm 1917 along with the Uniball Air (and Uniball Air</p>
+            <p>Micro), to jot down various thoughts and to-do lists. As it so happens, I have two</p>
+            <p>videos where I talk more in-depth about why this pen and notebook are so</p>
+            <p>amazing. Part of it has to do with delight, an idea that stands behind many of my</p>
+            <p>purchases.</p>
+        </div>
+    
+        <div class="notebookImg">
+            <img src="./img/notebook1.jpg" alt="notebook1">
+            <img src="./img/notebook2.jpg" alt="notebook2">
+        </div>
+    
+        <div class="keyboard">
+            <h4>⌨️ Keyboard</h4>
+            <div class="keyboardContent">
+                <p>One of the questions I get asked most in my comment sections are "What</p>
+                <p>keyboard is that?". Apparently this piece of kit is a hit with many viewers.</p>
+            </div>
+            <p>Here's a full review of my favourite keyboard, the IQUnix F96 Coral.</p>
+            <div class="keyboardImg">
+                <img src="./img/keyboard1.jpg" alt="keyboard1">
+                <img src="./img/keyboard2.jpg" alt="keyboard2">
+                <img src="./img/keyboard3.jpg" alt="keyboard3">
+            </div>
+        </div>
+    
+        <div class="ipad">
+            <h4>📝 iPad</h4>
+            <div class="ipadContainer">
+                <p>The 12.9 inch iPad Pro (with the delightful Magic Keyboard) is my daily driver,</p>
+                <p>which I use to get most of my work and writing done. At this point I could honestly</p>
+                <p>say I couldn't live without it. However, the 12.9 inch version might not be for</p>
+                <p>everyone, which is why I have a selection of videos covering anything and</p>
+                <p>everything iPad for every budget range.</p>
+            </div>
+            
+            <div class="ipadList">
+                <ol>
+                    <li>How I Use My iPad Pro as a Doctor</li>
+                    <li>Which iPad Should You Buy - Analysis of iPad Pro vs iPad Air vs iPad Mini vs iPad</li>
+                    <li>iPad Mini Review - The Perfect Consumption Device</li>
+                    <li>iPad Pro 2020 Review</li>
+                    <li>iPad Air 2020 Review</li>
+                    <li>Productivity Power - NEW iPad Air (2020) Review</li>
+                    <li>iPad Pro 11 vs. 12.9 inch</li>
+                    <li>iPad Pro vs MacBook Air</li>
+                    <li>iPad Pro Magic Keyboard Impressions</li>
+                </ol>
+    
+                <div class="ipadContent">
+                    <p>Once you have your shiny new iPad, a good idea is to protect it with something like</p>
+                    <p>the Paperlike Screen Protector. If you need more convincing, here's my video on</p>
+                    <p>why it's so good.</p>
+                </div>
+    
+                <img src="./img/ipad.webp" alt="ipad" id="ipadImg">
+                
+            </div>
+        </div>
+    
+        <div class="appleWatch">
+            <h4>⌚️ Apple Watch</h4>
+            <div class="applewatchContent">
+                <p>These days, I rock the Apple Watch Series 4 as my daily driver. It's definitely in the</p>
+                <p>nice-to-have bucket, rather than the this-is-lifechanging one. It's somewhat useful</p>
+                <p>for paying for stuff with Apple Pay, and dictating stuff into Drafts. Oh, and checking</p>
+                <p>the time. For more tips, check out my Apple Watch Series 4 Review.</p>
+            </div>
+        </div>
+    
+        <div class="youtubeGear">
+            <h4>🎬 YouTube Gear</h4>
+            <div class="youtubeGearContent1">
+                <p>For any budding YouTuber, it's always important to have a certain standard of</p>
+                <p>quality. Phones nowadays are capable of some amazing feats of cinematography</p>
+                <p>but nothing beats an old-school camera and my daily workhorse is the Sony A7</p>
+                <p>III. Works great with a Sony 24mm F/1.4 G-Master.</p>
+            </div>
+    
+            <div class="youtubeGearContent2">
+                <p>If that's a bit on the pricy side, the Sony A6500 is a great alternative. An even</p>
+                <p>cheaper one, but still capable of decent performance is the Sony A6000, which I</p>
+                <p>talk about in my video, Recommended Tech for Students.</p>
+            </div>
+    
+            <div class="youtubeGearContent3">
+                <p>For more specific YouTuber/content creator gear and lower priced alternatives,</p>
+                <p>check out my kit.co page. I've also made a Notion page breaking down the best</p>
+                <p>gear you can buy depending on your budget, which you may find useful.</p>
+            </div>
+    
+            <div class="youtubeGearContent4">
+                <p>Among other things, I talk in-depth about all the gear I use and recommend in my</p>
+                <p>live course, The Part-Time YouTuber Academy.</p>
+            </div>
+        </div>
+    
+        <div class="coursesContainer2" id="youtubeContent">
+            <div class="coursesContainer2_sub3">
+                <h3>Part-Time YouTuber Academy</h3>
+                <div class="coursesContainer2_sub3_1">
+                    <div class="container2_sub3_1_1">
+                        <p>Learn how to grow your YouTube channel from 0</p>
+                        <p>to 100,000+ subscribers and transform it into a..</p>
+                        <div class="container2_sub3_1_1_1">
+    
+                            <img src="./img/homelogo.png" alt="homelogo" id="homeImg">
+                            <p id="pushUp"> Part-Time YouTuber Academy</p>
+                        </div>
+                    </div>
+                    <div class="container2_sub3_1_2">
+                        <img src="./img/partTime_youTuber_Academy_img.png" alt="partTime_youTuber_Academy_img" id="youtuberImg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="listeningTools">
+            <h4>🎧 Listening Tools</h4>
+            <div class="listeningToolsContent1">
+                <p>The original AirPods (and now, the AirPods Pro) are my single favourite Apple</p>
+                <p>product. They might even be one of my favourite piece of tech of all time, mainly</p>
+                <p>because they massively reduce the friction associated with listening to stuff.</p>
+                <p>Thanks to my AirPods, I've listened to dozens more podcasts and audiobooks than</p>
+                <p>I would have without them. In aggregate, this has added so much value to my life</p>
+                <p>that I view the AirPods as being one of the few genuinely life-changing pieces of</p>
+                <p>tech.</p>
+            </div>
+            <ul>
+                <li>Video - Why Everyone Should Get AirPods</li>
+                <li>Video - AirPods Pro Impressions</li>
+            </ul>
+            <div class="listeningToolsContent2">
+                <p>However, for a more immersive experience (and long-haul flights) I also love my</p>
+                <p>trusty Bose QuietComfort 35 Series II.</p>
+            </div>
+            <div class="listeningImg">
+                <img src="./img/listeningTools1.jpg" alt="listeningTools1">
+                <img src="./img/listeningTools2.jpg" alt="listeningTools2">
+            </div>
+        </div>
+    
+        <div class="Reading">
+            <h4>📚 Reading</h4>
+            <div class="ReadingContent1">
+                <p>While the Airpods are a life-changing invention for listening to stuff, the Amazon</p>
+                <p>Kindle is a life-changing invention for reading books. I've been a Kindle fanboy</p>
+                <p>since 2008, and thanks to the Kindle, I've read and highlighted hundreds of books</p>
+                <p>since then.</p>
+            </div>
+            <div class="ReadingContent2">
+                <p>These days, I use the Kindle Oasis, although the Kindle Paperwhite is much</p>
+                <p>better value-for-money and the one I'd officially recommend. Honestly, the Oasis is</p>
+                <p>only useful if you really care about a warmer light, or if you're going to be dropping</p>
+                <p>it in the bathtub regularly. Or if you have too much spare cash to burn.</p>
+            </div>
+            <div class="ReadingContent3">
+                <div class="readingContent3_1">
+                    <h4>You Should get a Kindle</h4>
+                    <p>if there's one thing I'd recommend you</p>
+                    <p>buy/request as a gift over the Christmasperiod...</p>
+                </div>
+                <div class="readingContent3_2">
+                    <img src="./img/readingImg.jpg" alt="Reading Img">
+                </div>
+            </div>
+        </div>
+    
+        <div class="favouriteApps">
+            <h4>My Favourite Apps</h4>
+            <div class="favouriteAppsContent1">
+                <p>20 years ago, nobody knew what an app was. Today, they're key building blocks in</p>
+                <p>our lives.</p>
+            </div>
+            <div class="favouriteAppsContent2">
+                <p>We're all different, with different needs and personalities, as mentioned in my</p>
+                <p>Perfect Note-Taking App video. Whether we're architects, gardeners or librarians,</p>
+                <p>nothing really stops us from using all the apps for different purposes. Sticking to an</p>
+                <p>app isn't a lifelong commitment nor does one single app need to fulfil ALL our</p>
+                <p>needs.</p>
+            </div>
+            <div class="favouriteAppsContent3">
+                <p>Below is a guide to my favourite apps but this lists is by no means exhaustive and</p>
+                <p>the apps that I use can change depending on what my needs are at the time.</p>
+            </div>
+            <div class="favouriteAppsContent4">
+                <img src="./img/favouriteApps.webp" alt="my_favourite_apps">
+            </div>
+        </div>
+    
+        <div class="notion">
+            <h4>📒 Notion</h4>
+            <div class="notion1">
+                <p>Notion is the app I use most to manage my life, studies, business and YouTube</p>
+                <p>channel. I love Notion, and I'd definitely recommend you sign up yourself (the</p>
+                <p>simplest version is free).</p>
+            </div>
+            <div class="notion2">
+                <p>Rather than going on about it, here is a list of videos on how I use this wonderfully</p>
+                <p>versatile app. If there's one app that carries the most functionality for me, it would</p>
+                <p>be this one.</p>
+            </div>
+            <ol class="notionList">
+                <li>My Favourite Productivity App for Students - Notion</li>
+                <li>How I use Notion as a Resonance Calendar</li>
+                <li>My 2019 Annual Review using Notion</li>
+                <li>My Favourite Note-Taking App for Students - Notion (2020)</li>
+                <li>My Creative Workflow with Notion</li>
+            </ol>
+            <div class="notion3">
+                <p>I have a whole Workflow series detailing how I use Notion over on Nebula. You can</p>
+                <p>get free access to Nebula by signing up for a CuriosityStream subscription and</p>
+                <p>using the code ALI at checkout.</p>
+            </div>
+        </div>
+    
+        <div class="audible">
+            <h4>📣 Audible</h4>
+            <div class="audible1">
+                <p>If I could only ever have one subscription in my life, it would be Audible. It's life-</p>
+                <p>changing, like the AirPods and Kindle. Good job Amazon for taking 2/3 of my life-</p>
+                <p>changing recommendations.</p>
+            </div>
+            <div class="audible2">
+                <p>I discovered Audible in 2017. As of 2020, I've listened to over 25 days of</p>
+                <p>Audiobooks. I mostly listen to fantasy books when driving and at the gym,</p>
+                <p>although I occasionally dabble in non-fiction too (although the difficulty of taking</p>
+                <p>notes while listening to audiobooks is a constant source of irritation in my</p>
+                <p>otherwise tranquil existence).</p>
+            </div>
+            <div class="audible3">
+                <p>I often mention audiobooks that I've enjoyed in my weekly newsletter, 💌 Sunday</p>
+                <p>Snippets. You might like to check it out.</p>
+            </div>
+        </div>
+        <div class="Evernote">
+            <h4>📄 Evernote</h4>
+            <div class="EvernoteContent">
+                <p>I use this to store all manners of receipts, company documents and other items</p>
+                <p>that would otherwise be stored in a filing cabinet. The search functionality is the</p>
+                <p>best part about this app - it's able to search using character recognition. Very</p>
+                <p>handy.</p>
+            </div>
+        </div>
+        <div class="Roam">
+            <h4>📖 Roam</h4>
+            <div class="roamContent1">
+                <p>Referring back to the architect-gardener-librarian analogy, this app best reflects</p>
+                <p>the gardener archetype. There's a lot to say about Roam but I use it reglarly and</p>
+                <p>the bi-directional linking is an amazing function that best fits with the natural way</p>
+                <p>our brains work.</p>
+            </div>
+            <div class="roamContent2">
+                <p>Same as with Notion, there's an entire series going over every way I use Roam on a</p>
+                <p>daily basis over on Nebula but here's a sample going over the basics.</p>
+            </div>
+        </div>
+        <div class="notability">
+            <div class="notabilityContent">
+                <p>My favourite app for taking handwritten notes. I also have a video detailing how I</p>
+                <p>did this in medical school over here.</p>
+            </div>
+        </div>
+        <div class="taskManagementTools">
+            <h4>⏳ Task Management Tools</h4>
+            <div class="taskManagementToolsContent1">
+                <p>To-do apps are a very personal thing and the market is absolutely flooded with</p>
+                <p>them. I've personally used Things 3 and ToDoist the most. The main reason I prefer</p>
+                <p>ToDoist is that I can share it with my team, something which Things 3 lacks.</p>
+                <p>However, if you're flying solo, Things 3 might be a good choice (beware, it's only</p>
+                <p>available on Apple devices).</p>
+            </div>
+            <div class="taskManagementToolsContent2">
+                <p>I try as often as I can to use an inbox for my brain so as not to forget or lose</p>
+                <p>potentially valuable ideas. Either of these apps works for that. The concept stems</p>
+                <p>from David Allen's Getting Things Done which is a sort of bible for productivity</p>
+                <p>nerds.</p>
+            </div>
+        </div>
+        <div class="moreApps">
+            <h4>✅ More Apps</h4>
+            <div class="moreAppsContent1">
+                <p>I could go on about apps all day long but here are a few videos on my favourite</p>
+                <p>apps for studying and productivity:</p>
+            </div>
+            <img src="./img/moreApps.webp" alt="moreAppsImg">
+            <ol>
+                <li>All the Apps I Use in a Day</li>
+                <li>My Favourite iPad Pro Apps (2020)</li>
+                <li>My Favourtie iPad Productivity Apps (2021)</li>
+                <li>What's on my iPhone 11 Pro Max (2020)</li>
+                <li>My Favourite iPhone Apps (2021)</li>
+                <li>My Favourite Mac Apps</li>
+                <li>My Favourite Mac Apps in 2020 | What's on my</li>
+                <li>The Best Productivity Apps for Students</li>
+                <li>Learn Anything With Flashcards - The Ultimate Guide To Anki</li>
+            </ol>
+            <div class="moreAppsContent2">
+                <p>Or if you prefer reading:</p>
+                <ol>
+                    <li>Useful Apps To Improve Productivity and Study Effectively.</li>
+                    <li>Saving Time with Alfred</li>
+                </ol>
+            </div>
+        </div>
+        <div class="postContent">
+            <h4>All posts by date</h4>
+            <ul>
+                <li>My YouTube Gear + Studio Setup</li>
+                <li>The Value of Delight</li>
+                <li>How I stay productive at work</li>
+                <li>Why and how you should learn to code</li>
+                <li>Saving time with Alfred</li>
+            </ul>
+        </div>
+        <div class="container_6">
+            <div class="container_6_1">
+                <h2>💌 Subscribe to Sunday Snippets</h2>
+                <p id="container_6_p">"Your emails always warm the cockles of my heart"</p>
+                <p>Join a growing community of more than 130,000 (🤯) friendly</p>
+                <p>readers. Every Sunday I share actionable productivity tips,</p>
+                <p>practical life advice, and high-quality insights from across the</p>
+                <p>web, directly to your inbox.</p>
+            </div>
+            <div class="container_6_2">
+                <input type="text" name="firstName" id="firstName" placeholder="First Name">
+                <input type="email" name="email3" id="email3" placeholder="Email Address">
+                <button id="subBtn2">SUBSCRIBE</button>
+            </div>
+        </div>
+    {% endblock %}

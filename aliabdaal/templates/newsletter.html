@@ -2,4 +2,731 @@
 
     {% block title %}{{ title }}{% endblock %}
     
-    {% block body %}<h1>{{ title }}</h1>{% endblock %}
+    {% block body %}
+        <svg  id="newsLetterLogo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 732.8 475.09"><path d="M694.07,579c51.37-13.9,117.35-23.83,200.06-34.5,17.77-2.3,16.66-25.33-.35-25.77-247.71-6.46-426.56-5.06-701,6.15-20.95.85-25.22,30.33-7.53,33.34,230.48,39.29,390.22,78.62,571.55,150.58,13.84,5.5,27.86-12.31,17.49-29-82.52-132.73-75-288.52-90.06-354.08-1.55-6.74-4.54-13.33-9.93-17.66-6.9-5.54-16-5.16-24.45,1.24a27,27,0,0,0-7.64,9.26C614.56,372.74,600,551.75,569.4,669.71a.76.76,0,0,1-1.3.31c-61.23-69.74-50-292.19-66.9-353.31-2.06-7.44-8.16-13.36-15.82-14.31-6.39-.79-13.37.49-18.63,8C419.51,378,376.65,597.21,291,762.65c-7.45,14.38,9.63,19.69,17.73,9,64.46-85.29,128.8-325.22,169.84-429.76a.92.92,0,0,1,1.77.21c9.48,61.88,8.31,271.46,67.44,338.86,21.15,24.11,36.93,7.58,42.15-4,7.66-17,14.46-46,20.7-76.56,14.08-69.11,29.78-166.16,48.48-245.78a.6.6,0,0,1,1.17.06c14.69,94.71,10.42,199.49,85.59,326.08a1.86,1.86,0,0,1-2.32,2.72c-131.81-59.55-289.47-94.2-442.38-130.3a.84.84,0,0,1,.23-1.65c191.5-6.9,318.92-6.43,498.55-11.43a.53.53,0,0,1,.1,1.06c-42.88,8.68-57,11.55-109.33,25.61C684.61,568.36,682.83,582.05,694.07,579Z" transform="translate(-174.2 -302.2)"></path></svg>
+
+        <div class="newsletterContainer1">
+            <div class="newslettersubContent1">
+                <h1>Free Weekly</h1>
+                <h1>Productivity Insights</h1>
+
+                <div class="newslettersubContent1_1">
+                    <p>Sign up for Sunday Snippets - my weekly newsletter</p>
+                    <p>where I share actionable productivity tips, practical life</p>
+                    <p>advice, and high-quality insights from across the web,</p>
+                    <p>directly to your inbox.</p>
+                </div>
+
+                <h3>Join 137,319 friendly readers</h3>
+                <div class="newsBtns">
+                    <input type="text" name="emailAddress" id="newsEmailAddress" placeholder="Email Address">
+                    <button id="newsSubBtn">Subscribe Free</button>
+                </div>
+                <p id="newsPara">"Your emails always warm the cockles of my heart"</p>
+            </div>
+            <div class="newslettersubContent2">
+                <img src={{ url_for('static', filename='/images/my_favourite_things_img.png')}} alt="my favourite things img" id="myFavouriteImg">
+            </div>
+        </div>
+
+        <div class="newsletterContainer2">
+            <h2>Read past issues of Sunday Snippets</h2>
+            <div class="newsletterContainer2_1">
+                <span class="date">MAR 27</span>
+                <span class="articleName">How to be okay</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">MAR 20</span>
+                <span class="articleName">Finding inspiration in Dubai</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">MAR 13</span>
+                <span class="articleName">How to Get Things Done</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">MAR 06</span>
+                <span class="articleName">What It's Really Like to Write a Book</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">FEB 27</span>
+                <span class="articleName">Why I Work on Weekends</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">FEB 20</span>
+                <span class="articleName">These questions are changing my life</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">FEB 13</span>
+                <span class="articleName">How to start creating</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">FEB 06</span>
+                <span class="articleName">How I Plan My Day</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">JAN 30</span>
+                <span class="articleName">Quitting Medicine</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">JAN 23</span>
+                <span class="articleName">Failing with Abandon</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">JAN 16</span>
+                <span class="articleName">I Hired an Accountability Coach</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">JAN 09</span>
+                <span class="articleName">12 Life Lessons from 2021</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">JAN 02</span>
+                <span class="articleName">The Novelty Index</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">DEC 27</span>
+                <span class="articleName">My 2021 Favourites</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">DEC 13</span>
+                <span class="articleName">I Got Laser Eye Surgery</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">DEC 05</span>
+                <span class="articleName">My Identity Crisis</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">NOV 28</span>
+                <span class="articleName">Travelling Back in Time</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">NOV 21</span>
+                <span class="articleName">Dying with $0</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">NOV 14</span>
+                <span class="articleName">My Digital Journal</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">NOV 07</span>
+                <span class="articleName">My Fear of Irrelevancy</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">OCT 17</span>
+                <span class="articleName">A Life-Changing Conversation</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">OCT 10</span>
+                <span class="articleName">Why You Should Treat Your Life Like a System</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">SEP 26</span>
+                <span class="articleName">The 37% Rule</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">AUG 29</span>
+                <span class="articleName">How to beat imposter syndrome</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">AUG 22</span>
+                <span class="articleName">What do we like about people?</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">JUL 12</span>
+                <span class="articleName">The best talk I've ever watched</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">JUN 06</span>
+                <span class="articleName">Why I've Been Failing Recently</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">MAY 30</span>
+                <span class="articleName">A hypocritically productive newsletter</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">MAY 17</span>
+                <span class="articleName">The Curse of Knowledge</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">MAY 10</span>
+                <span class="articleName">Making Work Fun</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">MAY 02</span>
+                <span class="articleName">Making problems magically disappear</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">MAR 28</span>
+                <span class="articleName">The End of an Era</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">MAR 21</span>
+                <span class="articleName">My 2021 Goals Update</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">MAR 01</span>
+                <span class="articleName">How my Housemate Saved Mey</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">FEB 21</span>
+                <span class="articleName">Why You Should Listen To Your Lazy Self</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">JAN 31</span>
+                <span class="articleName">Why is asking for help so hard?</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">JAN 24</span>
+                <span class="articleName">My Fear of Being too Personal</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">JAN 17</span>
+                <span class="articleName">Oops I did it again</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">JAN 10</span>
+                <span class="articleName">How I Productively Make Friends</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">JAN 03</span>
+                <span class="articleName">I need some help lol</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">DEC 27</span>
+                <span class="articleName">My Annual Review 2020</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">DEC 20</span>
+                <span class="articleName">The most important thing I do each year</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">NOV 23</span>
+                <span class="articleName">Quantity over Quality</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">NOV 08</span>
+                <span class="articleName">The Power of Power Hour</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">OCT 25</span>
+                <span class="articleName">The Trap I Fell Into</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">OCT 11</span>
+                <span class="articleName">Mimetic Traps</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">OCT 04</span>
+                <span class="articleName">An interesting realisation</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">SEP 21</span>
+                <span class="articleName">How I Think About Goals</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">SEP 13</span>
+                <span class="articleName">The Value of Saying Yes</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">SEP 07</span>
+                <span class="articleName">The Power of Clarity</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">AUG 31</span>
+                <span class="articleName">A Simple Trick to Beat Procrastination</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">AUG 23</span>
+                <span class="articleName">How to Build a Second Brain</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">AUG 17</span>
+                <span class="articleName">How to Build a Second Brain</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">AUG 09</span>
+                <span class="articleName">Learn in Public, It's Great</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">AUG 03</span>
+                <span class="articleName">3 Nice Quotes</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">JUL 26</span>
+                <span class="articleName">The Power of the Weekly Review</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">JUL 20</span>
+                <span class="articleName">Why I Skipped Last Week's Email</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">JUL 05</span>
+                <span class="articleName">The Top of my To-Do List</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">JUN 28</span>
+                <span class="articleName">The Pilot, The Plane, The Engineer</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">JUN 22</span>
+                <span class="articleName">My Neurological Disease</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">JUN 15</span>
+                <span class="articleName">The Ideal Life</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">JUN 08</span>
+                <span class="articleName">Changing how I think of time</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">MAY 31</span>
+                <span class="articleName">2x Speed Listening</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">MAY 24</span>
+                <span class="articleName">Couch to 1k - Daily Writing Challenge</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">MAY 18</span>
+                <span class="articleName">Ali's Life Lessons</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">MAY 11</span>
+                <span class="articleName">Homework for Life</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">MAY 04</span>
+                <span class="articleName">The Input-Output Framework</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">APR 27</span>
+                <span class="articleName">Inside the Mind of a Master Procrastinator</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">APR 19</span>
+                <span class="articleName">Answering your Questions</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">APR 12</span>
+                <span class="articleName">Curiosity, Lightness and Self-Compassion</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">APR 05</span>
+                <span class="articleName">Morning Pages</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">MAR 29</span>
+                <span class="articleName">Trying out Roam Research</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">MAR 23</span>
+                <span class="articleName">Meaningful things to do during a pandemic</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">MAR 15</span>
+                <span class="articleName">Should we attend the party?</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">MAR 08</span>
+                <span class="articleName">Move fast, break things</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">MAR 02</span>
+                <span class="articleName">Taking my own advice</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">FEB 24</span>
+                <span class="articleName">Why my Information Diet is suboptimal</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">FEB 16</span>
+                <span class="articleName">Improvisational Productivity</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">FEB 09</span>
+                <span class="articleName">A Reminder about Consistency</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">FEB 03</span>
+                <span class="articleName">Motivation is a Myth</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">JAN 26</span>
+                <span class="articleName">How I get myself out of bed</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">JAN 20</span>
+                <span class="articleName">Ironing and Life Insights</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">JAN 13</span>
+                <span class="articleName">Lean into the fear</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">JAN 06</span>
+                <span class="articleName">What should I do with my life?</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">DEC 29</span>
+                <span class="articleName">Reconsider Victory Conditions</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">DEC 22</span>
+                <span class="articleName">14 Lessons I Learned in 2019</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">DEC 15</span>
+                <span class="articleName">New Year's Resolutions</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">DEC 09</span>
+                <span class="articleName">Knowledge vs Execution</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">DEC 01</span>
+                <span class="articleName">Subtraction</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">NOV 25</span>
+                <span class="articleName">If this isn't nice, I don't know what is</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">NOV 17</span>
+                <span class="articleName">Tie Your Camel</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">NOV 10</span>
+                <span class="articleName">A productivity hack that actually works</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">NOV 04</span>
+                <span class="articleName">A little more effort</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">OCT 28</span>
+                <span class="articleName">Expand the Box</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">OCT 20</span>
+                <span class="articleName">Sleep is good</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">OCT 13</span>
+                <span class="articleName">Pay Yourself First</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">OCT 06</span>
+                <span class="articleName">Window-openers vs Door-Knockers</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">SEP 26</span>
+                <span class="articleName">Chasing sirens</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">SEP 23</span>
+                <span class="articleName">The Value of Delight</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">SEP 15</span>
+                <span class="articleName">Obvious to you, amazing to others</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">SEP 08</span>
+                <span class="articleName">The Concept of a Flywheel</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">SEP 01</span>
+                <span class="articleName">A life-changing change to my lunchtime routine</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">AUG 26</span>
+                <span class="articleName">How I stay productive at work</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">AUG 19</span>
+                <span class="articleName">The Power of Accountability</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">AUG 11</span>
+                <span class="articleName">Boring is Fun</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">AUG 05</span>
+                <span class="articleName">Reflecting on a year of being a doctor</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">JUL 28</span>
+                <span class="articleName">How I remember what I read</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">JUL 21</span>
+                <span class="articleName">The story that changed my life</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">JUL 14</span>
+                <span class="articleName">The acronym that changed how I write</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">JUL 07</span>
+                <span class="articleName">Chance encounters</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">JUN 30</span>
+                <span class="articleName">How to become more confident</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">JUN 23</span>
+                <span class="articleName">Getting Our House in Order</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">JUN 16</span>
+                <span class="articleName">The Power of Project Lists</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">JUN 09</span>
+                <span class="articleName">The Inbox for your Brain</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">JUN 03</span>
+                <span class="articleName">Our own worst critics</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">MAY 26</span>
+                <span class="articleName">The joys of handwriting</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">MAY 19</span>
+                <span class="articleName">High-leverage housekeeping</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">MAY 12</span>
+                <span class="articleName">3 minutes vs 3 months</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">MAY 05</span>
+                <span class="articleName">The Reitoff Principle for Productivity</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">APR 28</span>
+                <span class="articleName">Why everything is super low risk</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">APR 21</span>
+                <span class="articleName">A brain-hack to make life more pleasant</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">APR 14</span>
+                <span class="articleName">A small dose of positivity</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">APR 07</span>
+                <span class="articleName">My most popular articles</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">MAR 31</span>
+                <span class="articleName">Using Notion as a Resonance Calendar</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">MAR 24</span>
+                <span class="articleName">Building a Second Brain</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">MAR 17</span>
+                <span class="articleName">I'm starting a podcast!</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">MAR 10</span>
+                <span class="articleName">The 2-minute productivity rule</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">MAR 03</span>
+                <span class="articleName">Parkinson's Law</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">FEB 24</span>
+                <span class="articleName">My rule for watching TV</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">FEB 17</span>
+                <span class="articleName">Keystone Habits</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">FEB 10</span>
+                <span class="articleName">How removing options makes me more productive</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">FEB 03</span>
+                <span class="articleName">A productivity tip</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">JAN 27</span>
+                <span class="articleName">How to make money in the stock market</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">JAN 20</span>
+                <span class="articleName">Keeping your door open</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">JAN 13</span>
+                <span class="articleName">The Mundanity of Excellence</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">JAN 06</span>
+                <span class="articleName">The Go First Rule</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">DEC 30</span>
+                <span class="articleName">Average Speed vs Maximum Speed</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">DEC 23</span>
+                <span class="articleName">New Year's Resolutions</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">DEC 16</span>
+                <span class="articleName">Your Stretch Zone</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">DEC 09</span>
+                <span class="articleName">You should get a Kindle</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">DEC 02</span>
+                <span class="articleName">Saying yes to everything</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">NOV 25</span>
+                <span class="articleName">Planting a tree</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">NOV 18</span>
+                <span class="articleName">How many sales will make you happy?</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">NOV 11</span>
+                <span class="articleName">How to minimise regrets</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">NOV 04</span>
+                <span class="articleName">The Parable of the Mexican Fisherman</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">OCT 28</span>
+                <span class="articleName">The Beginner's Mindset</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">OCT 21</span>
+                <span class="articleName">A simple change to my nighttime routine</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">OCT 14</span>
+                <span class="articleName">I'm not very good at languages</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">OCT 07</span>
+                <span class="articleName">Snippets of life advice</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">SEP 30</span>
+                <span class="articleName">Journey before destination</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">SEP 23</span>
+                <span class="articleName">Force yourself to start</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">SEP 16</span>
+                <span class="articleName">My first death</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">SEP 09</span>
+                <span class="articleName">Overthinking</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">SEP 02</span>
+                <span class="articleName">Changing direction</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">AUG 26</span>
+                <span class="articleName">Be content to be thought foolish</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">AUG 20</span>
+                <span class="articleName">What pencil do you use?</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">AUG 12</span>
+                <span class="articleName">"It's busy, but really fun"</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">AUG 05</span>
+                <span class="articleName">The Trichotomy of Control</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">JUL 29</span>
+                <span class="articleName">Don't believe the hype</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">JUL 22</span>
+                <span class="articleName">What to do over summer</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">JUL 16</span>
+                <span class="articleName">Dealing with bad grades</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">JUL 08</span>
+                <span class="articleName">The Parable of the Pottery Class</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">JUL 01</span>
+                <span class="articleName">Climbing a proverbial mountain</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">JUN 25</span>
+                <span class="articleName">Diminishing Returns</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">JUN 17</span>
+                <span class="articleName">Staying in touch</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">JUN 10</span>
+                <span class="articleName">A whole lot better </span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">JUN 03</span>
+                <span class="articleName">How to approach stuff we have to do</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">MAY 27</span>
+                <span class="articleName">Hustle vs Chill?</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">MAY 20</span>
+                <span class="articleName">Consistency is king</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">MAY 13</span>
+                <span class="articleName">Time Management</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">MAY 06</span>
+                <span class="articleName">The antidote to fear</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">APR 29</span>
+                <span class="articleName">Death & Future-Self Thinking</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">APR 22</span>
+                <span class="articleName">Motivation is a myth</span>
+            </div>
+            <div class="newsletterContainer2_1">
+                <span class="date">APR 15</span>
+                <span class="articleName">Hedonic Adaptation</span>
+            </div>
+        </div> 
+
+    {% endblock %}

@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.bookNotesContainer1{
+    margin-top: 4rem;
+}
+
+.bookNotesContainer1 h1{
+    margin-left: 15rem;
+    margin-top: 1.5rem;
+}
+
+#EbooksIcon{
+    width: 43vw;
+    height: 13vw;
+}
+
+#headLine{
+    width: 87px;
+    margin-left: 15rem;
+    margin-top: 1rem;
+    border: 2px solid #3897d3;
+}
+
+.bookNotesContainer2{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 15rem;
+    margin-top: 6rem;
+}
+
+.bookNotesContainer2 img{
+    width: 10vw;
+    height: 14vw;
+    margin-right: 23px;
+    border-radius: 5px;
+}
+
+.bookNotesContainer2 a{
+    color: #3897d3;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.bookNotesContainer2 a:hover{
+    cursor: pointer;
+    color: #227cb5;
+}
+
+.bookNotesContent1{
+    display: flex;
+    margin-bottom: 4rem;
+}
+
+.bookNotesContent2{
+    display: flex;
+}
+
+.bookNotesContent1_2 h4{
+    margin-top: 7px;
+}
+.booksNotesContent1_2_subcontent{
+    margin-top: 3rem;
+}
+
+
+#bookDrop {
+    width: 12px;
+    height: 13px;
+    position: relative;
+    top: 2.5px;
+    left: 1px;
+  }
+  
+  /*articleDropdown*/
+  
+  #bookArticleDropdown {
+    width: 13vw;
+    margin-left: 43.5rem;
+    border-radius: 7px;
+    padding-left: 7px;
+    padding-top: 3px;
+    box-shadow: 1px 2px 4px #888888;
+    display: none;
+    background-color: #fff;
+  }
+  
+  #bookArticleDropdown li {
+    list-style: none;
+    margin-bottom: 7px;
+  }
+  

@@ -4,69 +4,243 @@
     
     {% block body %}
     
-    <div class="coursesContainer1">
-        <img src={{ url_for('static', filename='images/courses.png')}}"" alt="courses" id="coursesImg">
-        <h2>🎒 My Courses</h2>
-        <div class="container1_content">
-            <p>You can find 99% of my stuff on the interest for free in various forms. But for a more</p>
-            <p>structured, detailed approach, you might like to check out my online courses</p>
-        </div>
-        <hr class="courseLink">
-    </div>
-
-    <div class="coursesContainer2">
-        <h2>Part-Time YouTuber Academy</h2>
-        <div class="coursesContainer2_sub1">
-            <p>Over the last three years I've created a system I call the Infinite Content Machine,</p>
-            <p>which has helped me gain over a million subscribers. As this is a method I've spent</p>
-            <p>the last three years nailing down, I wanted to share it with you so you can replicate</p>
-            <p>it for yourself.</p>
+        <div id="coursesEntireContent">
+            <div class="coursesContainer1">
+                <img src={{ url_for('static', filename='/images/courses.png')}} alt="courses" id="coursesImg">
+                <h2>🎒 My Courses</h2>
+                <div class="container1_content">
+                    <p>You can find 99% of my stuff on the interest for free in various forms. But for a more</p>
+                    <p>structured, detailed approach, you might like to check out my online courses</p>
+                </div>
+                <hr class="courseLink">
+            </div>
+        
+            <div class="coursesContainer2">
+                <h1>Part-Time YouTuber Academy</h1>
+                <div class="coursesContainer2_sub1">
+                    <p>Over the last three years I've created a system I call the Infinite Content Machine,</p>
+                    <p>which has helped me gain over a million subscribers. As this is a method I've spent</p>
+                    <p>the last three years nailing down, I wanted to share it with you so you can replicate</p>
+                    <p>it for yourself.</p>
+                </div>
+                
+                <div class="coursesContainer2_sub2">
+                    <p>If, like me you want to build a business from YouTube and you either need the</p>
+                    <p>encouragement to start or to carry on and do it with a purpose, <a href="#">the Part-Time</a></p>
+                    <p><a href="#">YouTuber Academy</a> would be perfect to you. I focus on the 0-100,000 subscribers</p>
+                    <p>territory so if this is you, I've outlined the courses in detail <a href="#">on this page</a></p>
+                </div>
+        
+                <div class="coursesContainer2_sub3">
+                    <h3>Part-Time YouTuber Academy</h3>
+                    <div class="coursesContainer2_sub3_1">
+                        <div class="container2_sub3_1_1">
+                            <p>Learn how to grow your YouTube channel from 0</p>
+                            <p>to 100,000+ subscribers and transform it into a..</p>
+                            <div class="container2_sub3_1_1_1">
+        
+                                <img src={{ url_for('static', filename='/images/homelogo.png')}} alt="homelogo" id="homeImg">
+                                <p id="pushUp"> Part-Time YouTuber Academy</p>
+                            </div>
+                        </div>
+                        <div class="container2_sub3_1_2">
+                            <img src={{ url_for('static', filename='/images/partTime_youTuber_Academy_img.png')}} alt="partTime_youTuber_Academy_img" id="youtuberImg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        <div class="coursesContainer3">
+            <h1>My Skillshare Classes</h1>
+            <div class="coursesContainer3_subContent">
+                <p>I love Skillshare. I've put up lots of online classes on there because (a) it's a great</p>
+                <p>platform, and (b) because anyone can watch my stuff via their very generous 1-</p>
+                <p>month free trial without having to pay anything. Here are examples of some of the</p>
+                <p>classes I have up on Skillshare.</p>
+            </div>
         </div>
         
-        <div class="coursesContainer2_sub2">
-            <p>If, like me you want to build a business from YouTube and you either need the</p>
-            <p>encouragement to start or to carry on and do it with a purpose, <a href="#">the Part-Time</a></p>
-            <p><a href="#">YouTuber Academy</a> would be perfect to you. I focus on the 0-100,000 subscribers</p>
-            <p>territory so if this is you, I've outlined the courses in detail <a href="#">on this page</a></p>
-        </div>
-
-        <div class="coursesContainer2_sub3">
-            <h3>Part-Time YouTuber Academy</h3>
-            <div class="coursesContainer2_sub3_1">
-                <div class="container2_sub3_1_1">
-                    <p>Learn how to grow your YouTube channel from 0</p>
-                    <p>to 100,000+ subscribers and transform it into a..</p>
-                    <p> <img src=src={{ url_for('static', filename='/images/homelogo.png')}} alt="homelogo"> Part-Time YouTuber Academy</p>
+        <div class="coursesContainer4">
+            <div class="coursesContent1">
+                <div class="coursesSubContent1">
+                    <h3>How to Study for Exams - An Evidence-Based</h3>
+                    <h3>Masterclass | Ali Abdaal | Skillshare</h3>
                 </div>
-                <div class="container2_sub3_1_2">
-                    <img src={{ url_for('static', filename='/images/partTime_youTuber_Academy_img.png')}}  alt="">
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="coursesContainer3">
-        <h2>My Skillshare Classes</h2>
-        <p>I love Skillshare. I've put up lots of online classes on there because (a) it's a great </p>
-        <p>platform, and (b) because anyone can watch my stuff via their very generous 1-</p>
-        <p>month free trail without having to pay anything. Here are examples of some of the </p>
-        <p>classes I have up on Skillshare.</p>
-
-        <div class="coursesContainer3_sub1">
-            <div class="coursesContainer3_sub1_1">
-                <div class="coursesContainer3_sub1_1_1">
-                    <p>How to Study for Exams - An Evidence-Based</p>
-                    <p>Masterclass | Ali Abdaal | Skillshare</p>
-                </div>
-                
-                <div class="coursesContainer3_sub1_1_2">
+                <div class="coursesSubContent2">
                     <p>Being able to study efficiently and effectively is a</p>
                     <p>superpower. As students, it boost our grades,...</p>
-                </div> 
-                
+                </div>
+                <img src={{ url_for('static', filename='/icons/skillshareLogo.webp')}}  alt="skillshare" id="skillShareLogo">
+                <span>Skillshare</span>
             </div>
-            <div class="coursesContainer3_sub1_2"></div>
+            <div class="coursesContent2">
+                    <img src={{ url_for('static', filename='/images/coursesContainer4.webp')}} alt="container4" id="container4Img">
+            </div>
         </div>
-    </div>
+        
+        <div class="coursesContainer4">
+            <div class="coursesContent1">
+                <div class="coursesSubContent1">
+                    <h3>Productivity Masterclass - The Principles of</h3>
+                    <h3>Productivity | Ali Abdaal | Skillshare</h3>
+                </div>
+                <div class="coursesSubContent2">
+                    <p>SKillshare is a learning community for creators.</p>
+                    <p>Anyone can take an online class, watch video...</p>
+                </div>
+                <img src={{ url_for('static', filename='/icons/skillshareLogo.webp')}} alt="skillshare" id="skillShareLogo">
+                <span>Skillshare</span>
+            </div>
+            <div class="coursesContent2">
+                <img src={{ url_for('static', filename='/icons/container4_2.webp')}}  alt="container4" id="container4Img1">
+            </div>
+        </div>
+        
+        <div class="coursesContainer4">
+            <div class="coursesContent1">
+                <div class="coursesSubContent1">
+                    <h3>Video Editing with Final Cut Pro X - From</h3>
+                    <h3>Beginner to YouTuber</h3>
+                </div>
+                <div class="coursesSubContent2">
+                    <p>In this class, you'll learn everything you need to</p>
+                    <p>get started with Final CutPro, and how to take</p>
+                </div>
+                <img src={{ url_for('static', filename='/images/homelogo.png')}}  alt="homelogo" id="skillShareLogo">
+                <span>Ali Abdaal</span>
+            </div>
+            <div class="coursesContent2">
+                <img src={{ url_for('static', filename='/icons/skillshareLogo.webp')}}  alt="container4" id="container4Img2">
+            </div>
+        </div>
+        
+        <div class="coursesContainer4">
+            <div class="coursesContent1">
+                <div class="coursesSubContent1">
+                    <h3>Learn Anything With Flashcards - The Ultimate</h3>
+                    <h3>Guide To Anki | Ali Abdaal | Skillshare</h3>
+                </div>
+                <div class="coursesSubContent2">
+                    <p>Learn Anything With Flashcards - The Ultimate</p>
+                    <p>Guide To AnkiFinding the right tools and...</p>
+                </div>
+                <img src={{ url_for('static', filename='/icons/skillshareLogo.webp')}}  alt="skillshare" id="skillShareLogo">
+                <span>Skillshare</span>
+            </div>
+            <div class="coursesContent2">
+                <img src={{ url_for('static', filename='/icons/container4_3.jpg')}}  alt="container4" id="container4Img3">
+            </div>
+        </div>
+        
+        <div class="coursesContainer4">
+            <div class="coursesContent1">
+                <div class="coursesSubContent1">
+                    <h3>How to be Happier - Stoicism Masterclass | All</h3>
+                    <h3>Abdaal | Skillshare</h3>
+                </div>
+                <div class="coursesSubContent2">
+                    <p>The Ancient Stoic philosophers had solutions for</p>
+                    <p>the problems we face today. The founders of...</p>
+                </div>
+                <img src={{ url_for('static', filename='/icons/skillshareLogo.webp')}} alt="skillshare" id="skillShareLogo">
+                <span>Skillshare</span>
+            </div>
+            <div class="coursesContent2">
+                <img src={{ url_for('static', filename='/icons/container4_4.webp')}} alt="container4" id="container4Img4">
+            </div>
+        </div>
+        
+        <div class="coursesContainer5">
+            <p>I'd recommend subscribing to SKillshare anyway (it's $10 a month and much better</p>
+            <p>for you than Netflix), but if you want, you can sign up to their 2-month free trail and</p>
+            <p>then cancel without being charged.</p>
+        </div>
+        
+        <div class="coursesContainer6">
+            <h1>Applying to Medical School</h1>
+        
+            <div class="coursesContainer6_content1">
+                <p>In 2013, I founded a company called <a href="#">6med</a>. We've been running classroom courses</p>
+                <p>for the UCAT, BMAT and medical school interviews ever since. Each year,</p>
+                <p>thousands of students use our courses and question banks to boost their</p>
+                <p>applications. Each year, we also give out hundreds of bursaries to students from</p>
+                <p>low-income backgrounds in an attempt to level ther playing field.</p>
+            </div>
+            <div class="coursesContainer6_content2">
+                <p>When I graduated from university and become a doctor, I no longer had the time to</p>
+                <p>teach the courses in-person, so I teamed up with some friends to make <a href="#">online</a></p>
+                <p><a href="#">video verisons of each of our Crash Courses</a>. If you can't make it to one of our</p>
+                <p>physical courses (which are run by a great team of Oxbridge medical students),</p>
+                <p>you might like to check out some of the online ones.</p>
+            </div>
+        </div>
+        
+        <div class="coursesContainer4">
+            <div class="coursesContent1">
+                <div class="coursesSubContent1">
+                    <h3>UCAT Crash Courses Online</h3>
+                </div>
+                <div class="coursesSubContent2">
+                    <p>The world's best UCAT preparation course. Now</p>
+                    <p>online in a series of 100+ videos with 9+ hours...</p>
+                </div>
+                <img src={{ url_for('static', filename='/icons/a_logo.png')}}  alt="skillshare" id="skillShareLogo">
+                <span>Ali Abdaal</span>
+            </div>
+            <div class="coursesContent2">
+                <img src={{ url_for('static', filename='/icons/container4_5.jpg')}}  alt="container4" id="container4Img5">
+            </div>
+        </div>
+        
+        <div class="coursesContainer4">
+            <div class="coursesContent1">
+                <div class="coursesSubContent1">
+                    <h3>BMAT Crash Course Online</h3>
+                </div>
+                <div class="coursesSubContent2">
+                    <p>A series of 70+ videos guiding you through all 3</p>
+                    <p>sections of the BMAT, with lots of worked...</p>
+                </div>
+                <img src={{ url_for('static', filename='/icons/a_logo.png')}} alt="skillshare" id="skillShareLogo">
+                <span>Ali Abdaal</span>
+            </div>
+            <div class="coursesContent2">
+                <img src={{ url_for('static', filename='/icons/container4_6.jpg')}}  alt="container4" id="container4Img6">
+            </div>
+        </div>
+        
+        <div class="coursesContainer4">
+            <div class="coursesContent1">
+                <div class="coursesSubContent1">
+                    <h3>Interview Crash Course Online</h3>
+                </div>
+                <div class="coursesSubContent2">
+                    <p>A series of 80+ videos and articles covering</p>
+                    <p>every aspect of medical school interview and...</p>
+                </div>
+                <img src={{ url_for('static', filename='/icons/a_logo.png')}} alt="skillshare" id="skillShareLogo">
+                <span>Ali Abdaal</span>
+            </div>
+            <div class="coursesContent2">
+                <img src={{ url_for('static', filename='/icons/container4_7.jpg')}}  alt="container4" id="container4Img7">
+            </div>
+        </div>
+        
+        <div class="container_6">
+            <div class="container_6_1">
+                <h2>💌 Subscribe to Sunday Snippets</h2>
+                <p id="container_6_p">"Your emails always warm the cockles of my heart"</p>
+                <p>Join a growing community of more than 130,000 (🤯) friendly</p>
+                <p>readers. Every Sunday I share actionable productivity tips,</p>
+                <p>practical life advice, and high-quality insights from across the</p>
+                <p>web, directly to your inbox.</p>
+            </div>
+            <div class="container_6_2">
+                <input type="text" name="firstName" id="firstName" placeholder="First Name">
+                <input type="email" name="email3" id="email3" placeholder="Email Address">
+                <button id="subBtn2">SUBSCRIBE</button>
+            </div>
+        </div>
+        
     
     {% endblock %}

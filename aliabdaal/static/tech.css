@@ -1,0 +1,420 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --linkColor: #3897d3;
+    --linkHover: #227cb5;
+    --techBackgroundColor: #f8fafc;
+}
+
+#techImg{
+    height: 13vw;
+    margin-top: 3rem;
+}
+
+.techContainer{
+    margin-left: 16.5rem;
+}
+
+.techContainer h1{
+    margin-top: 2rem;
+}
+
+.techContent{
+    margin-top: 2rem;
+    font-size: 27px;
+}
+
+#techLine{
+    width: 79px;
+    border: 2px solid var(--linkColor);
+    margin-top: 1.5rem;
+}
+
+.pageContainer{
+    display: flex;
+    margin-left: 16rem;
+    margin-top: 6rem;
+}
+
+.pageContainer ul li{
+    list-style: none;
+}
+
+.pageContainer ul li:hover{
+    cursor: pointer;
+}
+
+#pagelist1{
+    border-left: 2px solid var(--linkColor);
+}
+
+.pageContainer_1{
+    background-color: var(--techBackgroundColor);
+    width: 42.5vw;
+    padding-top: 2rem;
+    padding-left: 2rem;
+}
+
+.pageContainer_1 h3{
+    margin-bottom: 18px;
+}
+
+.pageContainer_1 ul li{
+    padding-left: 12px;
+    border-left: 2px solid lightgray;
+    padding-top: 11px;
+    font-size: 19px;
+}
+
+.pageContainer_2{
+    margin-left: 6rem;
+    margin-top: 12px;
+}
+
+.pageContainer_2 ul li{
+    padding-left: 12px;
+    border-left: 2px solid lightgray;
+    padding-top: 11px;
+}
+
+.pageContainer_2 h3{
+    margin-bottom: 14px;
+}
+
+.myfavouriteGear{
+    margin-left: 16rem;
+    margin-top: 3rem;
+}
+
+.myfavouriteGear h4{
+    font-size: 20px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.myfavouriteGear p{
+    font-size: 19px;
+}
+
+.notebook{
+    margin-top: 3rem;
+    margin-left: 16rem;
+}
+
+.notebook h4{
+    font-size: 20px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.notebookImg{
+    margin-left: 16rem;
+    display: flex;
+}
+
+.notebookImg img{
+    width: 311px;
+    height: 166px;
+    margin-right: 12px;
+    margin-top: 1.5rem;
+}
+
+.keyboard{
+    margin-left: 16rem;
+    margin-top: 2rem;
+    font-size: 19px;
+}
+
+.keyboard h4{
+    margin-bottom: 1rem;
+}
+
+.keyboardContent{
+    margin-bottom: 10px;
+}
+
+.keyboardImg{
+    display: flex;
+}
+
+.keyboardImg img{
+    width: 207px;
+    height: 117px;
+    margin-right: 12px;
+    margin-top: 2rem;
+}
+
+.ipad{
+    margin-left: 16rem;
+    margin-top: 1rem;
+    font-size: 19px;
+}
+
+.ipad h4{
+    margin-bottom: 1rem;
+}
+
+.ipadList ol{
+    margin-left: 16px;
+    margin-top: 1rem;
+}
+
+.ipadList ol li{
+    margin-top: 8px;
+}
+
+.ipadContent{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#ipadImg{
+    width: 41.5vw;
+}
+
+.appleWatch{
+    margin-left: 16rem;
+    margin-top: 1rem;
+    font-size: 19px;   
+}
+
+.youtubeGear{
+    margin-left: 16rem;
+    margin-top: 1rem;
+    font-size: 19px;
+}
+
+.youtubeGearContent1{
+    margin-top: 1rem;
+}
+
+.youtubeGearContent2{
+    margin-top: 1rem;
+}
+
+.youtubeGearContent3{
+    margin-top: 1rem;
+}
+
+.youtubeGearContent4{
+    margin-top: 1rem;
+}
+
+#youtubeContent{
+    position: relative;
+    bottom: 31px;
+    right: 177px;
+}
+
+.listeningTools{
+margin-left: 16rem;
+    margin-top: 1rem;
+    font-size: 19px;
+}
+
+.listeningImg{
+    display: flex;
+}
+
+.listeningImg img{
+    width: 20vw;
+    margin-right: 10px;
+    margin-top: 1.5rem;
+}
+
+.Reading{
+margin-left: 16rem;
+    margin-top: 2rem;
+    font-size: 19px;
+}
+
+.ReadingContent1{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.ReadingContent2{
+    margin-bottom: 1rem;
+}
+
+.ReadingContent3{
+    display: flex;
+    background-color: #f8fafc;
+    width: 38rem;
+    padding-left: 16px;
+    border-radius: 9px;
+}
+
+.readingContent3_1{
+    padding-top: 18px;
+}
+
+.ReadingContent3 img{
+    width: 15vw;
+    height: 9vw;
+    margin-left: 13px;
+    border-radius: 9px;
+}
+
+.favouriteApps{
+    margin-left: 16rem;
+    margin-top: 4rem;
+    font-size: 19px;
+}
+
+.favouriteAppsContent1{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.favouriteAppsContent3{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.favouriteAppsContent4 img{
+    width: 41.5vw;
+}
+
+.notion{
+margin-left: 16rem;
+    margin-top: 4rem;
+    font-size: 19px;
+}
+
+.notion1{
+    margin-top: 1rem;
+}
+
+.notion2{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.notionList{
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.audible{
+margin-left: 16rem;
+    margin-top: 1rem;
+    font-size: 19px;
+}
+
+.audible1{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.audible3{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.Evernote{
+margin-left: 16rem;
+    margin-top: 1rem;
+    font-size: 19px;
+}
+
+.EvernoteContent{
+    margin-top: 1rem;
+}
+
+.Roam{
+margin-left: 16rem;
+    margin-top: 1rem;
+    font-size: 19px;
+}
+
+.roamContent1{
+    margin-top: 1rem;
+}
+
+.roamContent2{
+    margin-top: 1rem;
+}
+
+.notability{
+margin-left: 16rem;
+    margin-top: 1rem;
+    font-size: 19px;
+}
+
+.taskManagementTools{
+margin-left: 16rem;
+    margin-top: 1rem;
+    font-size: 19px;
+}
+
+.taskManagementToolsContent1{
+    margin-top: 1rem;
+}
+
+.taskManagementToolsContent2{
+    margin-top: 1rem;
+}
+
+
+.moreApps{
+margin-left: 16rem;
+    margin-top: 1rem;
+    font-size: 19px;
+}
+
+.moreAppsContent1{
+    margin-top: 1rem;
+}
+
+.moreApps img{
+    margin-top: 1rem;
+    width: 41.5vw;
+}
+
+.moreApps ol li{
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.postContent{
+   margin-left: 16rem;
+    margin-top: 1rem;
+    font-size: 19px; 
+}
+
+.postContent ul li{
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+
+#techDrop {
+    width: 12px;
+    height: 13px;
+    position: relative;
+    top: 2.5px;
+    left: 1px;
+  }
+  
+  /*articleDropdown*/
+  
+  #techArticleDropdown {
+    width: 13vw;
+    margin-left: 43.5rem;
+    border-radius: 7px;
+    padding-left: 7px;
+    padding-top: 3px;
+    box-shadow: 1px 2px 4px #888888;
+    display: none;
+    background-color: #fff;
+  }
+  
+  #techArticleDropdown li {
+    list-style: none;
+    margin-bottom: 7px;
+  }
+  
