@@ -1,6 +1,6 @@
 # aliabdaal
 ## Priyanshu Maurya
-## Shubham khale
+## Shubham Shivram Khale
 
 Making little readme.
 
